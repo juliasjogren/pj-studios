@@ -1,4 +1,4 @@
-<!Doctype html>
+<!doctype html>
 <html>
 
 <head>
@@ -7,6 +7,29 @@
 </head>
 
 <body>
+
+  <header>
+    <h1><span id="title-p">P</span>Y<span id="title-j">J</span>AMA</h1>
+    <h3>STUDIOS</h3>
+  </header>
+  <nav>
+    <div class="nav-button" onclick="navClick('home')"><h4>Home</h4></div>
+    <div class="nav-button" onclick="navClick('projects')"><h4>Projects</h4></div>
+    <div class="nav-button" onclick="navClick('games')"><h4>Games</h4></div>
+  </nav>
+  <div id="home" class="page">
+    Home
+  </div>
+  <div id="projects" class="page hidden">
+    Projects
+  </div>
+  <div id="games" class="page hidden">
+    Games
+  </div>
+  <footer>
+    <h6>Made by PJ Studios</h6>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 

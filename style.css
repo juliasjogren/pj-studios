@@ -1,8 +1,64 @@
 * {
-  padding: 0 auto;
   margin: 0 auto;
+  padding: 0;
 }
 
 html {
-  width: 80%
+  background: linear-gradient(lightblue, white);
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+body {
+  width: 80%;
+  height: 100%;
+}
+
+header {
+  padding: 3%;
+  text-align: center;
+  background: transparent;
+}
+
+#title-p {
+  color: darkred;
+}
+
+#title-j {
+  color: white;
+}
+
+nav {
+  display: flex;
+  padding-bottom: 2%;
+}
+
+.nav-button {
+  border-radius: 25px;
+  border-top: 1.5px solid darkred;
+  border-bottom: 1.5px solid darkred;
+  width: 33.33333333333%;
+  text-align: center;
+  flex-grow: 1;
+  margin: 1% 5%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  cursor: pointer;
+}
+
+.page {
+  background: white;
+  min-height: 60%;
+  border-radius: 10px;
+  border-top: 1.5px solid darkred;
+  padding: 5%;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  padding: 2% 0%;
 }
